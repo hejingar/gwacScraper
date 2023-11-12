@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Gwac",
+    "name": "Docuu",
     "version": "1.0",
     "description": "Scrap your Sales Navigator search results and get a csv compatible with every CRM available on the market",
     "permissions": ["activeTab", "scripting", "storage"],
