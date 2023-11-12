@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+.title {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+#scrapeButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#scrapeButton:hover {
+    background-color: #45a049;
+}
+
+#emailList {
+    text-align: left;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-height: 50px;
+    word-wrap: break-word;
+    max-width: 300px;
+    margin: auto;
+}
+
+.email-list-container {
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+}
+
+.navbar .tablink {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navbar .tablink:hover {
+    background-color: #45a049;
+}
+
+.tab {
+    display: none;
+}
+
+.active-tab {
+    display: block;
+    min-height: 200px;
+}

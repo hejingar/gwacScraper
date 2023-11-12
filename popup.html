@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gwac Email Scraper</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Gwac Email Scraper</h1>
+        
+        <!-- Tab Content -->
+        <div class="tab-content">
+            <div id="scrapeTab" class="tab">
+                <button id="scrapeButton">Scrape Emails</button>
+                <div class="email-list-container">
+                    <div id="emailList">Emails will be displayed here...</div>
+                </div>
+            </div>
+            <div id="settingsTab" class="tab" style="display:none;">
+                <!-- Settings content goes here -->
+                <p>Settings will be displayed here...</p>
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <div class="navbar">
+            <button class="tablink" id="scrapeTabButton">Scrape</button>
+            <button class="tablink" id="settingsTabButton">Settings</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

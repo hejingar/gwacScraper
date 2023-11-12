@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Gwac",
+    "version": "1.0",
+    "description": "Scrap your Sales Navigator search results and get a csv compatible with every CRM available on the market",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["contentScript.js"]
+        }
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
